@@ -6,6 +6,11 @@ This project will take you through the process of mashing up data from two diffe
 
 You will put those two together. You will use TasteDive to get related movies for a whole list of titles. You’ll combine the resulting lists of related movies, and sort them according to their Rotten Tomatoes scores (which will require making API calls to the OMDB API.)
 
+TasteDive provides recommendations of similar music, movies, TV shows etc. based on what you search for.
+
+The OMDb API is a RESTful web service to obtain movie information
+
+
 # Material
 TasteDive Api Documentation: https://tastedive.com/read/api
 
