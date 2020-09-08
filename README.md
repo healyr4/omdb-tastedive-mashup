@@ -10,3 +10,7 @@ You will put those two together. You will use TasteDive to get related movies fo
 TasteDive Api Documentation: https://tastedive.com/read/api
 
 OMDB Api Documentation: https://www.omdbapi.com/
+
+# Functions
+(1) get_movies_from_tastedive(string):
+Takes input parameter, a string that is the name of a movie or music artist. Returns the 5 TasteDive results that are associated with that string. Only gets movies, not other kinds of media. It will be a python dictionary with just one key, ‘Similar’.
