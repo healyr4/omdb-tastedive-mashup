@@ -34,3 +34,4 @@ It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoe
 
 (6) **get_sorted_recommendations (movie_titles_list):**
 It takes a list of movie titles as an input. It returns a sorted list of related movie titles as output, up to five related movies for each input movie title. The movies are sorted in descending order by their Rotten Tomatoes rating, as returned by the get_movie_rating function. Ties are broken in reverse alphabetic order, so that ‘Yahşi Batı’ for example, comes before ‘Eyyvah Eyvah’.
+
