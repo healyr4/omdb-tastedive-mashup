@@ -18,4 +18,4 @@ OMDB Api Documentation: https://www.omdbapi.com/
 
 # Functions
 (1) get_movies_from_tastedive(string):
-Takes input parameter, a string that is the name of a movie or music artist. Returns the 5 TasteDive results that are associated with that string. Only gets movies, not other kinds of media. It will be a python dictionary with just one key, ‘Similar’.
+Takes input parameter, a string that is the name of a movie or music artist. Returns the 5 TasteDive results that are associated with that string. Only gets movies, not other kinds of media. It returns a python dictionary with just one key, ‘Similar’.
