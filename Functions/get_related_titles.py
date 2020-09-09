@@ -32,4 +32,4 @@ def get_related_titles(movie_title_list):
         for title in extracted_list:
             if title not in resulting_list:
                 resulting_list.append(title)
-    return resulting_list
+    return resulting_list  
