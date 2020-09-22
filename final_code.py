@@ -76,6 +76,6 @@ def get_sorted_recommendations(movie_titles_list):
     related_list = get_related_titles(movie_titles_list)
     ranked_list = sorted(related_list, key = lambda movie: (get_movie_rating(get_movie_data(movie)), movie), reverse=True)
     return ranked_list
-# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+#Test
 # get_sorted_recommendations(["Bridesmaids", "Sherlock Holmes"])
 
